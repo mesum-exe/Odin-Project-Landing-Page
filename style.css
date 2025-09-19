@@ -1,0 +1,168 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+}   
+
+.hero {
+    color: #F9FAF8;
+    background-color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 100px;
+    padding-top: 16px;
+}
+
+.header div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-1 {
+    display: flex;
+    
+    padding: 100px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section-1 button {
+    margin-top: 16px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sidekick-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.section-4 {
+    background-color: #3882f6;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 40px 200px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+    padding-bottom: 40px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+}
+
+.info-images img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.section-3 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+    gap: 8px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+
+    font-style: italic;
+}
+
+.quote-source {
+    font-weight: 900;
+}
+
+.section-4 {
+    margin: 70px 100px;
+    padding: 30px 70px;
+
+    border-radius: 10px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+}
+
+.bold-text {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.section-1 button {
+    border-style: hidden;
+}
+
+.section-4 button {
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
